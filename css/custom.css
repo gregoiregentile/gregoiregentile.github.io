@@ -32,7 +32,7 @@ html, body, h1, h2, h3, p, a, ul {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #e74c3c;/* Red */
+    color: #8a1eab;/* Purple */
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
@@ -43,12 +43,12 @@ html, body, h1, h2, h3, p, a, ul {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #e74c3c;/* Red */
+    color: #8a1eab;/* Purple */
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #e74c3c;/* Red */
+    color: #8a1eab;/* Purple */
     background-color: rgb(85,85,85);
 
 }
