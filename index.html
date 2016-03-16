@@ -1,1706 +1,830 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
     <head>
 
-        
-
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
-        <meta http-equiv="content-script-type" content="text/javascript" />
-
-        <meta http-equiv="content-style-type" content="text/css" />
-
-		<meta http-equiv="content-language" content="en" />
-
-
-
-
          <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1"><!--To indicate to the browser that the page will adapt to any screensize-->
-
         
-
         
-
-        <meta name="author" content=« Grégoire Gentile» />
-
+        <meta name="author" content="Hugo Moreau" />
+        <meta name="description" content="I'm Hugo Moreau, tired of the usual resume format, trying to make my skills help me in my quest to originality." />
+        <meta name="keywords" content="Hugo Moreau, Resume, EPFL, Communication Systems, Online, CV, " />
         <title>Grégoire Gentile - Online Resume</title>
-
-        <!--try-->
-
         <!--Bootstrap CSS-->
-
         <link rel="stylesheet" href="css/bootstrap.min.css" />
-
         <!--Custom CSS-->
-
         <link rel="stylesheet" href="css/custom.css" />
+        <!-- Languages flag-->
+        <link rel="stylesheet" href="css/languages.min.css"/>
 
         <!--Fonts-->
-
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600,400,700,300italic' rel='stylesheet' type='text/css'>
-
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
     </head>
 
-
-
-
-    	 
-
-    
-
     <body data-spy="scroll" data-target=".navbar">
-
+        <div class="container-fluid alert alert-danger alert-dismissible" role="alert" style="text-align:center">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>Heads-Up !</strong> I'm looking for an internship during July - August 2016 ! So if you are interested in my profile, quickly jump to the 
+            <a href="#contact" title="Go to contact section" class="alert-link">contact section</a>
+        </div><!--/.alert-->
         
-
         <div class="page-section container-fluid" id="presentation">
-
             <div id = "centered-title">
-
                 <div id = title-up>
-
-                Grégoire Gentile 
-
-                <hr/>
-
-                </div>
-
-                <div id = title-down>Online Resume</div> 
-
-                <div id="clickable"><a class="btn btn-default" href="#about-me" role="button">Learn More about Grégoire!</a></div>
-
-            </div>
-
-            
-
+                    Grégoire Gentile 
+                    <hr/>
+                </div><!--/#title-up-->
+                <div id = title-down>Online Resume</div><!--/#title-down--> 
+                <div id="clickable">
+                    <a class="btn btn-default" href="#about-me" title="scroll down to About me section" role="button">Learn More about Grégoire!</a>
+                    <a href = "fr/index.html" title="Go to the french version" class="btn btn-default">
+                        <span class="lang-sm lang-lbl-full" lang="fr"></span> 
+                   </a><!--/.btn-->
+                </div><!--/#clickable-->
+            </div><!--/#Centered-title-->
         </div><!--/#presentation-->
-
         
-
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-
+        <nav class="navbar navbar-default navbar-fixed-top">
              <div class="container-fluid">
-
                 <div class="navbar-header">
-
                     <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-
                         <span class="sr-only">Toggle navigation</span>
-
                         <span class="icon-bar"></span>
-
                         <span class="icon-bar"></span>
-
                         <span class="icon-bar"></span>
-
                     </button>
-
                     
-
-                    <a href="#presentation" class="navbar-brand">Grégoire’s Online Resume</a>
-
+                    <a href="#presentation" title="Go to the first page (presentation page)" class="navbar-brand">Grégoire's Online Resume</a>
                 </div><!--/.navbar-header-->
-
                
-
                 
-
                 <div id="main-nav" class="collapse navbar-collapse">
-
                     <ul class="nav navbar-nav">
-
                         <li class="hidden active">
-
-                            <a href="#presentation"></a>
-
+                            <a href="#presentation" title="Go to presentation"></a>
                         </li>
-
-                        <li><a href="#about-me">About Me</a></li>
-
-                        <li><a href="#education">Education</a></li>
-
-                        <li><a href="#abilities">Abilities</a></li>
-
-                        <li><a href="#projects">Projects</a></li>
-
-                        <li><a href="#contact">Contact</a></li>
-
+                        <li><a href="#about-me" title="Go to about me page">About Me</a></li>
+                        <li><a href="#education" title="Go to education page">Education</a></li>
+                        <li><a href="#abilities" title="Go to abilities page">Abilities</a></li>
+                        <li><a href="#projects" title="Go to project page">Projects</a></li>
+                        <li><a href="#contact" title="Go to contact page">Contact</a></li>
                     </ul>
-
                 </div><!--/.navbar-collapse-->
-
-                
-
             </div><!--/.container-fluid-->  
-
         </nav><!--/.navbar-->
-
-
-
-
-        <!------------------------------------------------------------------->
-
-<!------------------Beginning of the different views----------------->
-
-        <!------------------------------------------------------------------->
-
-        
-
-        
-
-        
-
-
+    
+   
 
         <div id="about-me" class="page-section container-fluid">
-
             <div class="container">
+                <h1>About Me</h1>
+                <h2>Mechanical Engineering Student</h2>  
+                <hr/>
+                <div class = "row">
+                    <div class = "col-md-4 text center">
+                        <h3>
+                            Who I am :
+                        </h3>
+                        <p>Student at Swiss Federal Institute of Technology (EPFL, Lausanne, Switzerland) I am finishing my bachelor’s degree in mechanical engineering. Open minded, curious and passioned by sciences and new technologies, I love to discover new areas to develop my personal and professional skills. Sporty, guitarist and studious, I love to solicit my creativity.
+                        </p>
+                        <p>Passionate about traveling, I would like after my studies to conjugate my professional activity with this hobby.
+                        </p>                    
+                    </div><!-- Left Section -->
 
+                    <div class = "col-md-4 text-center">
+                    <img src="images/rounded-pic.png" alt="Profile Picture" width="246" height="246">
 
+                    </div><!-- Center Section-->
 
-            <div id ="title">About Me</div>   
-
-            <div id ="subtitle">Mechanical Engineering Student</div>
-
-            <hr/>
-
-            <div class = "row">
-
-                <div class = "col-md-4 text center">
-
-                    <h1>
-
-                        Who I am :
-
-                    </h1>
-
-                    <p>Student at Swiss Federal Institute of Technology (EPFL, Lausanne, Switzerland) I am finishing my bachelor’s degree in mechanical engineering. Open minded, curious and passioned by sciences and new technologies, I love to discover new areas to develop my personal and professional skills. Sporty, guitarist and studious, being creative is my way of living. 
-
-                    </p>
-
-                    <p>
-Passioned of travels, I would like after my studies to conjugate my professional activity with this hobby.
-
-                    </p>                    
-
-                </div><!-- Left Section -->
-
-
-
-
-                <div class = "col-md-4 text-center">
-
-                <img src="images/rounded-pic.png" alt="Profile Picture" width="246" height="246">
-
-
-
-
-                </div><!-- Center Section-->
-
-
-
-
-                <div class = "col-md-4">
-
-                    <h1>
-
-                        Quick Details :
-
-                    </h1>
-
-                    <div class = "container-fluid">
-
-                        <h3>Name : </h3>
-
-                        <p>Grégoire (Sélim) Gentile</p>
-
-                        <h3>Age:</h3>
-
-                        <p>Born on the 7th of February, 1995 (21 years old).</p>
-
-                        <h3>Location : </h3>
-
-                        <p>Currently Studying in Lausanne, Switzerland.
-
-                        <p>Originaly from Paris, France.</p>
-
-                    </div><!--End of the fluid container-->  
-
-                </div><!-- Right Division--> 
-
-            </div><!--End of the fluid container-->   
-
-        
-
-            </div><!--/.container-->
-
+                    <div class = "col-md-4">
+                        <h3>
+                            Quick Details :
+                        </h3>
+                        <div class = "container-fluid">
+                            <h5>Name : </h5>
+                            <p>Grégoire Gentile</p>
+                            <h5>Age:</h5>
+                            <p>Born on the 7th of February, 1995 (21 y.o.).</p>
+                            <h5>Location : </h5>
+                            <p>Currently Studying in Lausanne, Switzerland.
+                            <p>Originaly from Paris, France.</p>
+                        </div><!--End of the fluid container-->  
+                    </div><!-- Right Division--> 
+                </div><!--/#row-->   
+            </div><!--/.container--> <!--Allows to reduce the witdth to 1080px max-->
+            
         </div><!--/#about-me-->
 
-
-
-
-        <div id="education" class="page-section container-fluid">
-
+        <div id="education" class="page-section">
             <div class="container">
-
-                <div id ="title">
-
-                    Education and Work Experiences
-
-                </div><!--/#title-->
-
-                <div id ="subtitle">
-
-                    “Choose a job you love and you will never have to work a day in your life” - Confusius
-
-                </div><!--/#subtitle-->
-
+                <h1>Education and Work Experiments</h1>
+                <h2>“Choose a job you love and you will never have to work a day in your life” - Confusius</h2>
                 <hr/>
-
-                <!------------------------------> 
-
-                <!----------ESTABLISHMENTS------>
-
-                <!------------------------------> 
-
-                <h1>
-
-                    Education
-
-                </h1>
+                <!--==========================--> 
+                <!--========ESTABLISHMENTS====-->
+                <!--==========================--> 
+                <h3>
+                    Establishments
+                </h3>
 
                 <!--One School-->
-
-                <div class ="row" id="element-wrapper">
-
+                <div class ="row">
                     <div class = "col-sm-4 no-padding text center">
-
-                        <h2>
-
+                        <h4>
                             Royal Institure of Technology
-
-                        </h2>
-
+                        </h4>
                         <p>
-
                             Sept 2015 - Jul 2016
-
                         </p>
-
                     </div><!-- Left Section -->
 
-
-
-
                     <div class = "col-sm-6 no-padding col-sm-offset-2" >
-
-                        <h3>
-
+                        <h5>
                             Last year of my bachelor's degree in Mechanical engineering
-
-                        </h3>
-
-                        <div id="descriptions">
-
+                        </h5>
+                        <div class="descriptions">
                             <p>
-
-                           I am currently doing my last year of bachelor in Stockholm. Enhancing my engineering proficiencies, I also work my english a learn every day how to adapt myself in the Swedish society.
-
+                            I am currently doing my last year of bachelor in Stockholm. Enhancing my engineering proficiencies, I also work my english a learn every day how to adapt myself in the Swedish society.
                                 </p>
-
                         </div>
-
                         <div class="links col-sm-5 text center">
-
                             <span class="glyphicon glyphicon-map-marker"></span>
-
-                            Stockholm, Sweden 
-
+                            Stockholm, Sweden
                         </div>
-
                         <div class="links col-sm-7 text center">
-
                             <span class="glyphicon glyphicon-link"></span>
-
-                            <a href="https://www.kth.se/en">KTH</a>
-
+                            <a href="http://ic.epfl.ch/communication-systems" title="Access the website of EPFL about the communication systems section" target="_blank">Communication Systems @EPFL</a>
                         </div>
-
                     </div><!--Right Section-->
-
                 </div>
-
-
-
-
-                <!--One School-->
-
-                <div class ="row" id="element-wrapper">
-
+                
+                                <!--One School-->
+                <div class ="row">
                     <div class = "col-sm-4 no-padding text center">
-
-                        <h2>
-
-                            Ecole Polytechnique Fédérale de Lausanne
-
-                        </h2>
-
+                        <h4>
+                            Swiss Federal Institute of Technology (EPFL)
+                        </h4>
                         <p>
-
                             Sept 2013 - Jul 2016
-
                         </p>
-
                     </div><!-- Left Section -->
 
-
-
-
                     <div class = "col-sm-6 no-padding col-sm-offset-2" >
-
-                        <h3>
-
+                        <h5>
                             Bachelor in Mechanical engineering
-
-                        </h3>
-
-                        <div id="descriptions">
-
+                        </h5>
+                        <div class="descriptions">
                             <p>
-
                             Starting by establishing the bases of the knowledge of engineering sciences, this degree focuses on the dynamical, material and analysis aspects of mechanical systems.
 
                                 </p>
-
                         </div>
-
                         <div class="links col-sm-5 text center">
-
                             <span class="glyphicon glyphicon-map-marker"></span>
-
-                            Lausanne, Switzerland 
-
+                           Lausanne, Switzerland 
                         </div>
-
                         <div class="links col-sm-7 text center">
-
                             <span class="glyphicon glyphicon-link"></span>
-
-                            <a href="http://sti.epfl.ch/mechanical-engineering">Mechanical engineering @EPFL</a>
-
+                            <a href="http://sti.epfl.ch/mechanical-engineering" title="Access the website of EPFL about the mechanical engineering section" target="_blank">Mechanical engineering @EPFL</a>
                         </div>
-
                     </div><!--Right Section-->
-
                 </div>
-
-
-
+                
 
                  <!--One School-->
-
-                <div class ="row" id="element-wrapper">
-
+                <div class ="row">
                     <div class = "col-sm-4 no-padding  text center">
-
-                        <h2>
-
+                        <h4>
                            Lycée Saint-Joseph
-
-                        </h2>
-
+                        </h4>
                         <p>
-
-                           June 2013
-
+                            June 2013
                         </p>
-
                     </div><!-- Left Section -->
 
-
-
-
                     <div class = "col-sm-6 no-padding col-sm-offset-2" >
-
-                        <h3>
-
+                        <h5>
                             Baccalaureate, Sciences (Physics specialization)
-
-                        </h3>
-
-                        <div id="descriptions">
-
+                        </h5>
+                        <div class="descriptions">
                             <p>
-
                             As the unique boarding school of France working on a team running principle, I chose to finish my High School in Saint Joseph as a member of the Social team. Situated in a more provincial environment than Paris, this school is reputed for his high education level. By several volunteering actions, I had the chance there to be sensitive to humanitarian causes.
 
                             </p>
-
                         </div>
-
                         <div class="links col-sm-5 text center">
-
                             <span class="glyphicon glyphicon-map-marker"></span>
-
-                        Reims, France 
-
+                         Reims, France 
                         </div>
-
                         <div class="links col-sm-7 text center">
-
                             <span class="glyphicon glyphicon-link"></span>
-
-                            <a href="http://www.saint-joseph.com">School Webiste</a>
-
+                            <a href="http://www.saint-joseph.com"  title="School Website" target="_blank">School Webiste</a>
                         </div>    
-
                     </div><!--Right Section-->
-
-                </div><!--/#element-wrapper-->
-
+                </div><!--/.row-->
                 <hr/>
-
-                <!------------------------------> 
-
-                <!----------EXPERIENCE---------->
-
-                <!------------------------------> 
-
-                <h1>
-
+                <!--==========================--> 
+                <!--EXPERIENCE-->
+                <!--==========================--> 
+                <h3>
                     Experience
-
-                </h1>
-
+                </h3>
                 <!--One School-->
-
-                <div class ="row" id="element-wrapper">
-
+                <div class ="row">
                     <div class = "col-sm-4 no-padding text center">
-
-                        <h2>
-
+                        <h4>
                             CESM - Sailing club
-
-                        </h2>
-
+                        </h4>
                         <p>
-
                             Since July 2013
-
                         </p>
-
                     </div><!-- Left Section -->
 
+                    <div class = "col-sm-6 no-padding col-sm-offset-2" >
+                        <h5>
+                            Saling instructor
+                        </h5>
+                        <div class="descriptions">
+                            <p>
+                            After having passed my diploma of sailing instructor in 2013, I use every summer to give, as a volunteer, courses to holiday makers, and also to summer camps. I like to be involved in this activity because I have to adapt the entertainment, the sailing theory, but also the security and the physical difficulty depending on the audience.
+                                </p>
+                        </div>
+                        <div class="links col-sm-5 text center">
+                            <span class="glyphicon glyphicon-map-marker"></span>Saint-Florent, Corsica,France
+                        </div>
+                        <div class="links col-sm-7 text center">
+                            <span class="glyphicon glyphicon-link"></span>
+                        <a href="http://www.cesmsaintflorent.fr" title="Access the website of the sailing center" target="_blank">Sailing center Website</a>
+                        </div>
+                    </div><!--Right Section-->
+                </div><!--/.row-->
 
-
+                <!--One School-->
+                <div class ="row">
+                    <div class = "col-sm-4 no-padding text center">
+                        <h4>
+                          Radio Cine Rire - Costume company
+                        </h4>
+                        <p>
+                            Stake holder, Seller 
+                        </p>
+                    </div><!-- Left Section -->
 
                     <div class = "col-sm-6 no-padding col-sm-offset-2" >
-
-                        <h3>
-
-                            Saling instructor
-
-                        </h3>
-
-                        <div id="descriptions">
-
+                        <h5>
+                            Waiter ("Serveur au Passe")
+                        </h5>
+                        <div class="descriptions">
                             <p>
+                             Leader in costume renting and selling in Paris, I take part in this family company by several ways. From selling products in the boutiques to managing the stock, I am also a stakeholder of the company in a view to a future more important involvement in it.
+                            </p>
+                        </div>
+                        <div class="links col-sm-5 text center">
+                            <span class="glyphicon glyphicon-map-marker"></span>
+                            Paris, France
+                        </div>
+                        <div class="links col-sm-7 text center">
+                            <span class="glyphicon glyphicon-link"></span>
+                            <a href="http://www.location-de-costumes.com" title="Access the company's website" target="_blank">Company Website</a>
+                            <span class="glyphicon glyphicon-link"></span>
+                            <a href="http://www.deguiseetvous.com" title="Access the company's online website" target="_blank">Online Website</a>
+                        </div>
+                    </div><!--Right Section-->
+                </div><!--/.row-->
+                
+                <!--One School-->
+                <div class ="row">
+                    <div class = "col-sm-4 no-padding text center">
+                        <h4>
+                            Cabane du Lotu - Restaurant
+                        </h4>
+                        <p>
+                            Since June 2014
+                        </p>
+                    </div><!-- Left Section -->
 
-                            After having passed my diploma of sailing instructor in 2013, I use every summer to give, as a volunteer, courses to holiday makers, and also to summer camps. I like to be involved in this activity because I have to adapt the entertainment, the sailing theory, but also the security and the physical difficulty in function of the audience.
+                    <div class = "col-sm-6 no-padding col-sm-offset-2" >
+                        <h5>
+                            Stake holder 
+                        </h5>
+                        <div class="descriptions">
+                            <p>
+                             From a recent possibility to create a restaurant in a family field in Corsica, I am with my father, my brother and Corsican people involved in a project of creating a place on the seashore of the "Agriate" desert.
 
                                 </p>
-
                         </div>
-
                         <div class="links col-sm-5 text center">
-
-                            <span class="glyphicon glyphicon-map-marker"></span>Saint-Florent, Corsica,France
-
+                            <span class="glyphicon glyphicon-map-marker"></span>Santu Pietro di tenda, Corsica,France
                         </div>
-
                         <div class="links col-sm-7 text center">
-
                             <span class="glyphicon glyphicon-link"></span>
-
-                        <a href="http://www.cesmsaintflorent.fr">Sailing center Website</a>
-
+                        <a href="https://www.facebook.com/cabanedulodu/" title="Access the website of the restaurant" target="_blank">"Cabane du Lotu" facebook page</a>
                         </div>
-
                     </div><!--Right Section-->
-
-                </div><!--/#element-wrapper-->
-
-
-
-
-                <!--One School-->
-
-                <div class ="row" id="element-wrapper">
-
-                    <div class = "col-sm-4 no-padding text center">
-
-                        <h2>
-
-                          Radio Cine Rire - Costume company
-
-                        </h2>
-
-                        <p>
-
-                            
-
-                        </p>
-
-                    </div><!-- Left Section -->
-
-
-
-
-                    <div class = "col-sm-6 no-padding col-sm-offset-2" >
-
-                        <h3>
-
-                            Stake holder, Seller 
-
-                        </h3>
-
-                        <div id="descriptions">
-
-                            <p>
-
-                            Leader in costume renting and selling in Paris, I take part in this family company by several ways. From selling products in the boutiques to managing the stock, I am also a stakeholder of the company in a view to a future more important involvement in it.
-
-                            </p>
-
-                        </div>
-
-                        <div class="links col-sm-5 text center">
-
-                            <span class="glyphicon glyphicon-map-marker"></span>
-
-                            Paris, France
-
-                        </div>
-
-                        <div class="links col-sm-7 text center">
-
-                            <span class="glyphicon glyphicon-link"></span>
-
-                            <a href="http://www.location-de-costumes.com">Company Website</a>
-                            <span class="glyphicon glyphicon-link"></span>
-                            <a href="http://www.deguiseetvous.com">Online Website</a>
-
-
-                        </div>
-
-                    </div><!--Right Section-->
-
-                </div><!--/#element-wrapper-->
-
-                <!--One School-->
-
-                <div class ="row" id="element-wrapper">
-
-                    <div class = "col-sm-4 no-padding text center">
-
-                        <h2>
-
-                          Cabane du Lotu - Restaurant
-
-                        </h2>
-
-                        <p>
-
-                            Since June 2014
-
-                        </p>
-
-                    </div><!-- Left Section -->
-
-
-
-
-                    <div class = "col-sm-6 no-padding col-sm-offset-2" >
-
-                        <h3>
-
-                            Stake holder 
-
-                        </h3>
-
-                        <div id="descriptions">
-
-                            <p>
-
-                            From a recent possibility to create a restaurant in a family field in Corsica, I am with my father, my brother and Corsican people involved in a project of creating a place on the seashore of the "Agriate" desert.
-
-                            </p>
-
-                        </div>
-
-                        <div class="links col-sm-5 text center">
-
-                            <span class="glyphicon glyphicon-map-marker"></span>
-
-                            Corsica, France
-
-                        </div>
-
-                        <div class="links col-sm-7 text center">
-
-                            <span class="glyphicon glyphicon-link"></span>
-
-                            <a href="https://www.facebook.com/cabanedulodu/">"Cabane du Lotu" facebook page</a>
-
-                        </div>
-
-                    </div><!--Right Section-->
-
-                </div><!--/#element-wrapper-->
-
-
+                </div><!--/.row-->
                 <hr />
 
-                
-
-                <!------------------------------> 
-
+                <!--==========================--> 
                 <!--INTERNSHIP AND SCHOOL JOBS-->
-
-                <!------------------------------> 
-
-                <h1>
-
+                <!--==========================--> 
+                <h3>
                     Internship and School Jobs
-
-                </h1>
-
+                </h3>
                 <!--One School-->
-
-                <div class ="row" id="element-wrapper">
-
+                <div class ="row">
                     <div class = "col-sm-4 no-padding text center">
-
-                        <h2>
-
-                           Mathematics - EPFL
-
-                        </h2>
-
+                        <h4>
+                            Tutoring in Digital Design
+                        </h4>
                         <p>
-
-                            Jan 2015 - Jul 2015
-
+                            Sept 2014 - Jul 2014
                         </p>
-
                     </div><!-- Left Section -->
 
-
-
-
                     <div class = "col-sm-6 no-padding col-sm-offset-2" >
+                        <h5>
+                            Teaching Assistant
+                        </h5>
 
-                        <h3>
-
-                            Tutor in Mathematics 
-
-                        </h3>
-
-                        
-
-                        <div id="descriptions">
-
+                        <div class="descriptions">
                         <p>
-
-                            As a teaching assistant for the first year biology students, I  helped them to understand the concepts in Analysis II every week.  This course was given by Professor Giordano Favi. The aim was also to make the students think faster on these new notions, to get them ready for the final exam. </p>
-
+                            Under the teaching of the professor Eduardo Sanchez, a team of 5 assistants was put together to help the 1st Year Student in Computer Science and Communication System with assignments in VHDL and Boolean logic every week. </p>
                         </div>
-
                         <div class="links col-sm-5 text center">
-
                             <span class="glyphicon glyphicon-map-marker"></span>
-
                             Lausanne, Switzerland
-
                         </div>
-
                         <div class="links col-sm-7 text center">
-
                             <span class="glyphicon glyphicon-link"></span>
-
-                            <a href="http://coaching.epfl.ch/">Coaching EPFL</a>
-
+                            <a href="http://people.epfl.ch/eduardo.sanchez?lang=en" title=" Send an email to Eduardo Sanchez, teacher of Digital Design" target="_blank">Eduardo Sanchez @EPFL</a>
                         </div>
-
                     </div><!--Right Section-->
-
-                </div><!--/#element-wrapper-->
+                </div><!--/.row-->
 
                 <!--One School-->
-
-                <div class ="row" id="element-wrapper">
-
+                <div class ="row">
                     <div class = "col-sm-4 no-padding text center">
-
-                        <h2>
-
-                            Coaching - EPFL
-
-                        </h2>
-
+                        <h4>
+                            Skeen - Men's Skin Care
+                        </h4>
                         <p>
-
-                            Sept 2014 - Jul 2015
-
+                            May 2012 - Jul 2012
                         </p>
-
                     </div><!-- Left Section -->
 
-
-
-
                     <div class = "col-sm-6 no-padding col-sm-offset-2" >
-
-                        <h3>
-
-                            Member of an association 
-
-                        </h3>
-
-                        
-
-                        <div id="descriptions">
-
-                        <p>
-
-                        As a second year student, I helped a group of six students of the first year in mechanical engineering to discover the university and the way of studying. I also organized events in the chapter of mechanical engineering. </p>
-
-                        </div>
-
-                        <div class="links col-sm-5 text center">
-
-                            <span class="glyphicon glyphicon-map-marker"></span>
-
-                            Lausanne, Switzerland
-
-                        </div>
-
-                        <div class="links col-sm-7 text center">
-
-                            <span class="glyphicon glyphicon-link"></span>
-
-                            <a href="http://people.epfl.ch/giordano.favi?lang=en">Giordano Favi @EPFL</a>
-
-                        </div>
-
-                    </div><!--Right Section-->
-
-                </div><!--/#element-wrapper-->
-                
-               <!--One School-->
-
-                <div class ="row" id="element-wrapper">
-
-                    <div class = "col-sm-4 no-padding text center">
-
-                        <h2>
-
-                           Société Saint Vincent de Paul
-
-                        </h2>
-
-                        <p>
-
-                            Sept 2011 - Jul 2013
-
-                        </p>
-
-                    </div><!-- Left Section -->
-
-
-
-
-                    <div class = "col-sm-6 no-padding col-sm-offset-2" >
-
-                        <h3>
-
-                            Volunteer
-
-                        </h3>
-
-                        
-
-                        <div id="descriptions">
-
-                        <p>
-
-                           In the city of Reims, I helped and talked to old people in retirement homes to give them some presence and support. Moreover, with my fellows, we participated in the Resto du Coeur actions during winter to provide food for homeless people. This experience showed me how people can be happy with very little, and learned me to relativise.</p>
-
-                        </div>
-
-                        <div class="links col-sm-5 text center">
-
-                            <span class="glyphicon glyphicon-map-marker"></span>
-
-                            Reims, France
-
-                        </div>
-
-                        <div class="links col-sm-7 text center">
-
-                            <span class="glyphicon glyphicon-link"></span>
-
-                            <a href="http://www.ssvp.fr/">SSVP website</a>
-
-                        </div>
-
-                    </div><!--Right Section-->
-
-                </div><!--/#element-wrapper-->
-
-
-
-                <!--One School-->
-
-                <div class ="row" id="element-wrapper">
-
-                    <div class = "col-sm-4 no-padding text center">
-
-                        <h2>
-
-                            L’Oréal - Biotherm
-
-                        </h2>
-
-                        <p>
-
-                            June 2012 - Jul 2012
-
-                        </p>
-
-                    </div><!-- Left Section -->
-
-
-
-
-                    <div class = "col-sm-6 no-padding col-sm-offset-2" >
-
-                        <h3>
-
-                            Discovering Internship
-
-                        </h3>
-
-                        <div id="descriptions">
-
+                        <h5>
+                            Internship - Responsible to conduct an awareness study
+                        </h5>
+                        <div class="descriptions">
                             <p>
-
-                            Under the instructions of the Scientific Director of Biotherm Élisa Simonpiétri, I discovered the different services involved in the Biotherm products. That allowed me to understand the processes of the products’ launching of the leader in cosmetics of the world. 
-
+                            Under the instructions of Mr. Pedro Garcia (CEO of the company), I was responsible to create from scratch an awareness study and a real-time analysis system based on google office suite tools. And finally had to conduct the study on randomized samples of people in the street to present the results to the executive staff. You can find below a link to the letter of recommendation from  Mr. Garcia. 
                                 </p>
-
                         </div>
-
                         <div class="links col-sm-5 text center">
-
                             <span class="glyphicon glyphicon-map-marker"></span>
-
                             Paris, France
-
                         </div>
-
                         <div class="links col-sm-7 text center">
-
                             <span class="glyphicon glyphicon-link"></span>
-
-                            <a href=« http://www.loreal.fr »>L’Oréal</a>
-
-
+                            <a href="files-dwnld/LettreRecommandationSkeen.pdf" title="View the recommendation letter" download="RecommandationLetter.pdf">Download Letter (pdf)</a><br/>
+                            <span class="glyphicon glyphicon-link"></span>
+                            <a href="mailto:pedrogarcia@skeen.fr" title="Send an email to Pedro Garcia">Contact Pedro Garcia</a>
                         </div>
-
                     </div><!--Right Section-->
-
-                </div><!--/#element-wrapper-->
-
-            </div><!--/#container-->
-
+                </div><!--/.row-->
+            </div><!--Container--><!-- to allow reduction to ma 1080px-->
         </div><!--/#education-->
 
-
-
-
-        <div id="abilities" class="page-section container">
-
-            <div class ="container">
-
-                <div id ="title">
-
-                    Abilities
-
-                </div>   
-
-                <div id ="subtitle">
-
-                    a·bil·i·ty: n. pl.<br/>
-
-
-
-
+        <div id="abilities" class="page-section">
+            <div class="container">
+                <h1>Abilities</h1>
+                <h2>
+                a·bil·i·ty: n. pl.<br/>
             - The quality of being able to do something, especially the physical, mental, financial, or legal power to accomplish something.<br/>
-
             - A skill, talent, or capacity: a student of many abilities.
-
-                </div>
-
+                </h2>
                 <hr> 
 
-
-
-
-                <!------------------------------> 
-
-                <!----------Languages----------->
-
-                <!------------------------------> 
-
+                <!--==========================--> 
+                <!--Languages-->
+                <!--==========================--> 
                 <div class="row" > 
-
-                    <h1>
-
+                    <h3>
                         Languages
-
-                    </h1>
-
+                    </h3>
                     <div class = "col-sm-12 text center">
-
                         <ul class ="no-bullets with-effects">
-
                         <li>
-
-                            <span class="ability-title">French</span>
-
+                            <span class="ability-title">French</span><!--/.ability-title -->
                             <span class="ability-score">
-
                                 <span class="comments">(Mother Tongue)</span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>		
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
-                            </span>
-
+                            </span><!--/.ability-score -->
                         </li>
-
                         <li>
-
-                            <span class="ability-title">English</span>
-
+                            <span class="ability-title">English</span><!--/.ability-title -->
                             <span class="ability-score">
-
                                 <span class="comments">(Full Professional Proficiency)</span>
 
-                                
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>		
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star "></span>
-
                                 <span class="glyphicon glyphicon-star "></span>
-
-                            </span>
-
+                            </span><!--/.ability-score -->
                         </li>
-
                         <li>
-
-                            <span class="ability-title">Spanish</span>
-
+                            <span class="ability-title">Spanish</span><!--/.ability-title -->
                             <span class="ability-score">
-
                                 <span class="comments">(Limited Professional Proficiency)</span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star filled"></span>
-
                                 <span class="glyphicon glyphicon-star "></span>
-
                                 <span class="glyphicon glyphicon-star "></span>		
-
                                 <span class="glyphicon glyphicon-star "></span>
-
                                 <span class="glyphicon glyphicon-star "></span>
-
                                 <span class="glyphicon glyphicon-star "></span>
-
-                            </span>
-
-                    </ul>
-
-                    </div>
-
-                    
-
-                </div>
-
-               <hr />
-
-
-
-
-                <!------------------------------> 
-
-                <!----------Skills-------------->
-
-                <!------------------------------>       
-
-                <div class = "row">
-
-                    <h1>
-
-                        Skills
-
-                    </h1>
-
-                    <div class = "col-sm-6 text center">
-
-                        <ul class ="no-bullets">
-
-                            <li>Social interaction</li>
-
-                            <li>Adaptability in several envirnoments</li>
-
-                            <li>Sciences awareness</li>
-
-                            <li>Curiousity and creativity</li>   
-
+                            </span><!--/.ability-score -->
+                        </li>
                         </ul>
+                    </div><!--/.col-sm-12-->
 
-                    </div><!--/.col-sm-6--> 
-
-
-
-
-                    <div class = "col-sm-6 text center">
-
-                        <ul class ="no-bullets">
-
-                            <li>Schedule management</li>
-
-                            <li>Versatility of interests and fields of knowledge</li>
-
-                            <li>Problem solving</li>
-                            
-                            <li>Strong engineering knowledge</li>
-
-                    </div><!--/.col-sm-6-->  
-
-                </div>
-
+                </div><!--./row-->
                 <hr />
 
+                <!--==========================--> 
+                <!--Skills-->
+                <!--==========================--> 
+                <div class = "row">
+                    <h3>
+                        Skills
+                    </h3>
+                    <div class = "col-sm-6 text center">
+                        <ul class ="no-bullets">
+                            <li>Group Organisation and Human Interaction</li>
+                            <li>Big Autonomy and Adaptability</li>
+                            <li>High Awareness of technological Innovations</li>
+                            <li>Smart Design Sensibility</li>   
+                        </ul>
+                    </div><!--/.col-sm-6--> 
 
+                    <div class = "col-sm-6 text center">
+                        <ul class ="no-bullets">
+                            <li>Strong schedule management</li>
+                            <li>Versatility of interests and fields of knowledge</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </div><!--/.col-sm-6-->  
+                </div><!--./row-->
+                <hr />
 
-
-                <!------------------------------> 
-
-                <!-----------Tools-------------->
-
-                <!------------------------------>
-
-                <div class="row" >
-
-                    <h1>
-
+                <!--==========================--> 
+                <!--Tools-->
+                <!--==========================--> 
+                <div class="row" ><!--./row-->
+                    <h3>
                     Tools and Programming Languages
-
-                    </h1>
-
-
-
+                    </h3>
 
                     <div class = "col-md-6">
-
                         <ul class="no-bullets with-effects">
-
                             <li>
-
-                                <span class="ability-title">Mac OSX</span>
-
+                                <span class="ability-title">Mac OSX</span><!--/.ability-title -->
                                 <span class="ability-score">
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>		
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
-                                </span>
-
-                            </li>
-
-                            <li>
-
-                                <span class="ability-title">Latex</span>
-
-                                <span class="ability-score">
-
-                                    <span class="glyphicon glyphicon-star filled"></span>
-
-                                    <span class="glyphicon glyphicon-star filled"></span>		
-
-                                    <span class="glyphicon glyphicon-star filled"></span>
-
-                                    <span class="glyphicon glyphicon-star filled"></span>
-
-                                    <span class="glyphicon glyphicon-star filled"></span>
-
-                                </span>
-
+                                </span><!--/.ability-score -->
                             </li>
                             <li>
-
-                                <span class="ability-title">MatLab</span>
-
+                                <span class="ability-title">Latex</span><!--/.ability-title -->
                                 <span class="ability-score">
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>		
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                </span><!--/.ability-score -->
+                            </li>
+                            <li>
+                                <span class="ability-title">Eclipse</span><!--/.ability-title -->
+                                <span class="ability-score">
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>		
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                </span><!--/.ability-score -->
+                            </li>
+                            <li>
+                                <span class="ability-title">Sublime Text 2</span><!--/.ability-title -->
+                                <span class="ability-score">
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>	
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                </span><!--/.ability-score -->
+                            </li>
+                            <li>
+                                <span class="ability-title">Java 6/7</span><!--/.ability-title -->
+                                <span class="ability-score">
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>		
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>
                                     <span class="glyphicon glyphicon-star "></span>
-
-                                </span>
-
+                                </span><!--/.ability-score -->
                             </li>
-
                             <li>
-
-                                <span class="ability-title">TI instrument</span>
-
+                                <span class="ability-title">C</span><!--/.ability-title -->
                                 <span class="ability-score">
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>		
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star "></span>
-
-                                </span>
-
+                                </span><!--/.ability-score -->
                             </li>
-                            
-                             <li>
-
-                                <span class="ability-title">Microsoft Office</span>
-
+                            <li>
+                                <span class="ability-title">HTML(5)</span><!--/.ability-title -->
                                 <span class="ability-score">
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>		
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star "></span>
-
-                                </span>
-
+                                </span><!--/.ability-score -->
                             </li>
-                            
                         </ul>
-
-                    </div>
-
+                    </div><!--./col-md-6-->
                     <div class = "col-md-6">
-
                         <ul class="no-bullets with-effects">
-                        	
                             <li>
-
-                                <span class="ability-title">C++</span>
-
+                                <span class="ability-title">MS Office</span><!--/.ability-title -->
                                 <span class="ability-score">
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>		
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
+                                    <span class="glyphicon glyphicon-star filled"></span>
                                     <span class="glyphicon glyphicon-star "></span>
-
-                                    <span class="glyphicon glyphicon-star "></span>
-
-                                </span>
-
+                                </span><!--/.ability-score -->
                             </li>
-
                             <li>
-
-                                <span class="ability-title">Arduino</span>
-
+                                <span class="ability-title">Python</span><!--/.ability-title -->
                                 <span class="ability-score">
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>		
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
+                                    <span class="glyphicon glyphicon-star filled"></span>
                                     <span class="glyphicon glyphicon-star "></span>
-
-                                    <span class="glyphicon glyphicon-star "></span>
-
-                                </span>
-
+                                </span><!--/.ability-score -->
                             </li>
-
                             <li>
-
-                                <span class="ability-title">LabView</span>
-
+                                <span class="ability-title">UML</span><!--/.ability-title -->
                                 <span class="ability-score">
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>		
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
+                                    <span class="glyphicon glyphicon-star filled"></span>
                                     <span class="glyphicon glyphicon-star "></span>
-
-                                    <span class="glyphicon glyphicon-star "></span>
-
-                                </span>
-
+                                </span><!--/.ability-score -->
                             </li>
-
                             <li>
-
-                                <span class="ability-title">Github</span>
-
+                                <span class="ability-title">Photoshop CS6</span><!--/.ability-title -->
                                 <span class="ability-score">
-
                                     <span class="glyphicon glyphicon-star filled"></span>
-
                                     <span class="glyphicon glyphicon-star filled"></span>		
-
+                                    <span class="glyphicon glyphicon-star filled"></span>
                                     <span class="glyphicon glyphicon-star "></span>
-
                                     <span class="glyphicon glyphicon-star "></span>
-
-                                    <span class="glyphicon glyphicon-star "></span>
-
-                                </span>
-
+                                </span><!--/.ability-score -->
                             </li>
-
+                            <li>
+                                <span class="ability-title">Illustrator CC</span><!--/.ability-title -->
+                                <span class="ability-score">
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>		
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star "></span>
+                                    <span class="glyphicon glyphicon-star "></span>
+                                </span><!--/.ability-score -->
+                            </li>
+                            <li>
+                                <span class="ability-title">XCode</span><!--/.ability-title -->
+                                <span class="ability-score">
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>		
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star "></span>
+                                    <span class="glyphicon glyphicon-star "></span>
+                                </span><!--/.ability-score -->
+                            </li>
+                            <li>
+                                <span class="ability-title">Github</span><!--/.ability-title -->
+                                <span class="ability-score">
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star filled"></span>	
+                                    <span class="glyphicon glyphicon-star filled"></span>
+                                    <span class="glyphicon glyphicon-star "></span>
+                                    <span class="glyphicon glyphicon-star "></span>
+                                </span><!--/.ability-score -->
+                            </li>
                         </ul>
-
-                    </div> 
-
+                    </div><!--./col-md-6-->
                 </div>   
-
-            </div>
-
+            </div><!--/.container-->
         </div><!--/#abilities-->
 
-
-
-
         <div id="projects" class="page-section">
-
             <div class="container">
-
-               <div id ="title">Points of Interests and Projects</div>  
-
-                <div id ="subtitle">
-
-                 Growing up is blossoming. Let me present you some of my favourite interests.
-
-                </div>
-
+                <h1>Points of Interests and Projects</h1>
+                <h2>A person shouldn’t be defined exclusively by his/her set of skills but also by what importance it grants to personal matters. So here are some of the things I love.</h2>
                 <hr/> 
-
-
-
-
-                <!------------------------------> 
-
-                <!---Beginning of Pictures------>
-
-                <!------------------------------>
-
-
-
-
                 <div class="row hidden-phone">
-
                     <div class="col-md-6 col-sm-12 col-xs-12">
-
                         <figure class="effect">
-
-                            <img src="/images/photomelange.jpg" alt="Sport mix" />
-
+                            <img src="/images/IMG_0004.JPG" alt="fixed gear picture" />
                             <figcaption>
+                                <h5>Fixed Gear Riding</h5>
+                                <p>The first big items I bought and owned, I’ve been enjoying to ride this bike through Paris and Lausanne since 2012 as a sport or simply a way of releasing pressure after a long week.</p>   
 
-                                <h3>Hobbies</h3>
-
-                                <p>Building and riding my own fixed gear bike, surfing, playing guitar, scuba diving, gastronomy... I had the chance in my life to try several activities and love to combine my studies with expressing myself in these hobbies. In my opinion, creativity and adaptation are the two words that link and gather sport, art and culture. </p>   
-                                
-                                 <a class="btn btn-red" href="http://hobbiesgreg.tumblr.com/" role="button">See my hobbies' Tumblr</a>
-
+                                 <a class="btn btn-red" href="https://www.strava.com/athletes/2288693" title="Link toward my Strava Profile" target="_blank" role="button">Link To Strava</a>
                             </figcaption> 
-
                         </figure>
-
-                    </div>
-
-
-
-
+                    </div><!--/.col-->
                     <div class="col-md-6 col-sm-12 col-xs-12">
-
                         <figure class="effect">
-
-                            <img src="/images/photo.jpg" alt="Shadow of the photograph" />
-
+                            <img src="/images/IMG_0261.jpg" alt="Petronas Towers Pictures" />
                             <figcaption>
-
-                                <h3>Photography</h3>
-
-                                <p>Discovering Sweden and it's wonderfull landscapes pushed me to create an album of this amazing exchange year. From the people I met to snowy pictures, I will keep an excellent souvenir of this country.</p>
-
-                               <a class="btn btn-red" href="http://gregoiregentile.tumblr.com" role="button">See my Tumblr</a>
-
+                                <h5>Photography - Amateur</h5>
+                                <p>My travels allowed me to start taking pictures around the globe and more specifically in Southeast Asia. This was a way for me to keep track of all my experiences and share them.</p>
+                               <a class="btn btn-red" href="http://superhmoreauthings.tumblr.com" title="Link toward my Tumblr" target="_blank" role="button">See My Tumblr</a>
+                                <a class="btn btn-red" href=" https://www.instagram.com/hugollin/" title="Link toward my Instagram profile" target="_blank" role="button">See My Instagram</a>
                             </figcaption> 
-
                         </figure>
-
-                    </div>
-
-
-
-
-
-
-
+                    </div><!--/.col-->
                     <div class="col-md-6 col-sm-12 col-xs-12">
-
                         <figure class="effect">
-
-                            <img src="/images/stockholm.jpg" alt="Stockholm city" />
-
+                            <img src="/images/IMG_1494.jpg" alt="Plane in The sunset" />
                             <figcaption>
-
-                                <h3>Exchange Year In Stockholm :</h3>
-
-                                <p>I love to travel. Thus, to finish my bachelor's degree, I have spent a year in the Royal Institute of Technology (KTH) in Stockholm. It gave me the possibility to improve my English, thanks to an immesrion in an international engineering student middle and in the english speaking society.</p>
-
-                                 <a class="btn btn-red" href="" role="button">See Report</a>
-
+                                <h5>Exchange Year In Singapore :</h5>
+                                <p>I spent my entire third year of bachelor in Singapore at Nanyang Technological University. This was a rich experiment, on a human perspective. It allowed me to do multiple travels.</p>
+                                 <a class="btn btn-red" href="https://www.dropbox.com/s/bmhap1cubynwqtq/Rapport%20Echange.pages?dl=0" title="Link toward my exchange report" target="_blank" role="button">See Report</a>
                             </figcaption> 
-
                         </figure>
-
-                    </div>
-
-
-
-
+                    </div><!--/.col-->
                     <div class="col-md-6 col-sm-12 col-xs-12">
-
                         <figure class="effect">
-
                             <img src="/images/final.jpg" alt="Graphical Design final Year Poster" />
-
                             <figcaption>
-
-                                <h3>Graphical Design</h3>
-
-                                <p>In 2nd year of Bachelor, EPFL offered us to follow a Graphical Design course as a Social and Humanities Science in partnership with ECAL. This allowed me to get a hand on Adobe Illustrator. It also provided me with basics of graphical design.</p> 
-
-                                <a class="btn btn-red" href="https://www.dropbox.com/s/0llf9qaujjz03tq/printA0%20copy.pdf?dl=0" role="button">See Project</a>
-
-                                <a class="btn btn-red" href="http://www.ecal.ch/fr/100/homepage" role="button">Link To Ecal</a>
-
-
-
-
+                                <h5>Graphical Design</h5>
+                                <p>In 2nd year of Bachelor, EPFL offered us to follow a Graphical Design course as a Social and Humanities Science in partnership with ECAL. This allowed me to get a hand on Adobe Illustrator. It also provided me with basics of design.</p> 
+                                <a class="btn btn-red" href="https://www.dropbox.com/s/0llf9qaujjz03tq/printA0%20copy.pdf?dl=0" title="Link toward my Graphical Design Project" target="_blank" role="button">See Project</a>
+                                <a class="btn btn-red" href="http://www.ecal.ch/fr/100/homepage" title="Link towards ECAL school" target="_blank" role="button">Link To Ecal</a>
                             </figcaption> 
-
                         </figure>
-
-                    </div>
-
-
-
-
-                </div>
-
+                    </div><!--/.col-->
+                </div><!--/.hidden-phone-->
                 <div class="row hidden-desktop">
-
                     <div class="col-md-6 col-sm-12 col-xs-12">
-
-                        <h3>Fixed Gear Riding</h3>
-
-                        <p>Snowboard, wakeboard</p>   
-
+                        <h5>Fixed Gear Riding</h5>
+                        <p>The first big items I bought and owned, I’ve been enjoying to ride this bike through Paris and Lausanne since 2012 as a sport or simply a way of releasing pressure after a long week.</p>   
                         <figure>
-
-                            <img src="/images/photomelange.jpg" alt="Mix sport" />
-
+                            <img src="/images/IMG_0004.JPG" alt="fixed gear picture" />
                             <figcaption>
-
-                                <h3>
-
-                                <a class="btn btn-white" href="http://hobbiesgreg.tumblr.com/" role="button">See my hobbies' Tumblr</a>
-
-                                </h3>
-
+                                <h5>
+                                <a class="btn btn-white" href="https://www.strava.com/athletes/2288693" title="Link towards my Strava Profile" target="_blank" role="button">Follow Me On Strava</a>
+                                </h5>
                             </figcaption>
-
                         </figure>
-
-
-
-
-                    </div>
-
-
-
-
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-
-                        <h3>Photography</h3>
-
-                        <p>Discovering Sweden and it's wonderfull landscapes pushed me to create an album of this amazing exchange year. From the people I met to snowy pictures, I will keep an excellent souvenir of this country.</p>
-
+                    </div><!--/.col-->
+                    <div class="col-md-6 col-sm-12 col-xs-12"><!--/.col-->
+                        <h5>Photography - Amateur</h5>
+                        <p>My travels allowed me to start taking pictures around the globe and more specifically in Southeast Asia. This was a way for me to keep track of all my experiences and share them.</p>
                         <figure>
-
-                            <img src="/images/photo.jpg" alt="Shadow of the photograph" />
-
+                            <img src="/images/IMG_0261.jpg" alt="Petronas Towers Pictures" />
                             <figcaption>
-
-                                <h3>
-
-                                    <a class="btn btn-white" href="http://gregoiregentile.tumblr.com" role="button">See my Tumblr</a>
-
-                                </h3>
-
+                                <h5>
+                                    <a class="btn btn-white" href="http://superhmoreauthings.tumblr.com" title="Link towards my Tumblr" target="_blank" role="button">See My Tumblr</a>
+                                    <a class="btn btn-white" href=" https://www.instagram.com/hugollin/" title="Link towards my Instagram account" target="_blank" role="button">See My Instagram</a>
+                                </h5>
                             </figcaption> 
-
                         </figure>
-
-                    </div>
-
-
-
-
-
-
-
+                    </div><!--/.col-->
                     <div class="col-md-6 col-sm-12 col-xs-12">
-
-                        <h3>Exchange Year In Stockholm :</h3>
-
-                        <p>I love  to travel. Thus, yo finish my bachelor's degree, I have spent a year in the Royal Institute of Technology (KTH) in Stockholm. It gave me the possibility to improve my English, thanks to an immesrion in an international engineering student middle and in the english speaking society.</p>
-
+                        <h5>Exchange Year In Singapore :</h5>
+                        <p>I spent my entire third year of bachelor in Singapore at Nanyang Technological University. This was a rich experiment, on a human perspective. It allowed me to do multiple travels.</p>
                         <figure>
-
-                            <img src="/images/stockholm.jpg" alt="Stockholm city" />
-
+                            <img src="/images/IMG_1494.jpg" alt="Plane in The sunset" />
                             <figcaption>
-
-                                <h3>
-
-                                    <a class="btn btn-white" href="" role="button">See Report</a>                          </h3>
-
+                                <h5>
+                                    <a class="btn btn-white" href="https://www.dropbox.com/s/bmhap1cubynwqtq/Rapport%20Echange.pages?dl=0" title="Link toward my exchange report" target="_blank" role="button">See Report</a>                          </h5>
                             </figcaption> 
-
                         </figure>
-
-                    </div>
-
-
-
-
+                    </div><!--/.col-->
                     <div class="col-md-6 col-sm-12 col-xs-12">
-
-                        <h3>Graphical Design</h3>
-
-                        <p>In 2nd year of Bachelor, EPFL offered us to follow a Graphical Design course as a Social and Humanities Science in partnership with ECAL. This allowed me to get a hand on Adobe Illustrator. It also provided me with basics of graphical design.</p> 
-
+                        <h5>Graphical Design</h5>
+                        <p>In 2nd year of Bachelor, EPFL offered us to follow a Graphical Design course as a Social and Humanities Science in partnership with ECAL. This allowed me to get a hand on Adobe Illustrator. It also provided me with basics of design.</p> 
                         <figure>
-
                             <img src="/images/final.jpg" alt="Graphical Design final Year Poster" />
-
                             <figcaption>
-
-                                <h3>
-
-                                    <a class="btn btn-white" href="https://www.dropbox.com/s/0llf9qaujjz03tq/printA0%20copy.pdf?dl=0" role="button">See Project</a>
-
-                                    <a class="btn btn-white" href="http://www.ecal.ch/fr/100/homepage" role="button">Link To Ecal</a>
-
-                                </h3>
-
+                                <h5>
+                                    <a class="btn btn-white" href="https://www.dropbox.com/s/0llf9qaujjz03tq/printA0%20copy.pdf?dl=0" title=" Link towards my Graphicak design project" target="_blank" role="button">See Project</a>
+                                    <a class="btn btn-white" href="http://www.ecal.ch/fr/100/homepage" title = "Link toward ECAL school" target="_blank" role="button">Link To Ecal</a>
+                                </h5>
                             </figcaption> 
-
                         </figure>
-
-                    </div>
-
-                 </div>
-
+                    </div><!--/.col-->
+                 </div><!--/.hidden-desktop-->
             </div>
-
         </div><!--/#projects-->
 
-
-
-
         <div id="contact" class="page-section">
-
             <div class="container">
-
-                <div id ="title">Contact Me</div><!--/#title-->
-
-                <div id ="subtitle">
-
-                 You can use the following links to contact me!
-
-                </div><!--/#subtitle-->
-
-                <hr/> 
-
+                <h1>Contact Me</h1>
+                <h2>Now that you learned a bit more about me, it's time to contact me.</h2>
+                <hr/>
                 <div class="mail-container">
-
-                    <ul class=no-bullets>
-
-                        <li><span class = "red">Personal mail :</span> <span class = "mail" ><a href="mailto:gregoire.gentile@gmail.com">gregoire.gentile@gmail.com</a></span></li>
-
-                        <li><span class = "red">EPFL mail :</span> <span class = "mail" ><a href="mailto:gregoire.gentile@epfl.ch">gregoire.gentile@epfl.ch</a></span></li>
-
-                    </ul>
-
-                </div>
-
-                
-
-                <div class="row">
-
-                    <div class="col-xs-6 text-center">
-
-                        <a href="https://fr.linkedin.com/in/gregoiregentile" target="_blank">
-
-                            <img src="images/Linkedin.png" alt="LinkedIn icon" width="90" height="90">
-                            
-                    </div>
-
-                    <div class="col-xs-6 text-center">
-
-                        <a href="skype:gregoiregntl?add">
-
-                            <img src="images/Skype.png" alt="Skype icon" width="90" height="90">
-
+                    <div class="row text-center">
+                        <a class="btn btn-white" href="mailto:moreauhugo@me.com" title="Send me an email on my personal email">
+                            Personal mail <span class="glyphicon glyphicon-envelope"></span>
                         </a>
-
                     </div>
-
-                    
-
-                    
-
+                    <div class="row text-center">
+                        <a class="btn btn-white" href="mailto:hugo.moreau@epfl.ch" title = "Send me an email on my EPFL email">
+                            EPFL mail <span class="glyphicon glyphicon-envelope"></span>
+                        </a>
+                    </div>
+                    <div class="row text-center">
+                        <a class="btn btn-white" href="/images/%20vcard-Hugo.vcf" title="Download my VCard">
+                            Add Me to your contacts<span class="glyphicon glyphicon-user"></span>
+                        </a>
+                    </div>
+                     <div class="row text-center">
+                          <a class="btn btn-white" href="/files-dwnld/Curriculum_Vitae.pdf" title="Download my Resume in PDF format" download="CV-HugoMoreau.pdf" role="button">Get My Resume <span class="glyphicon glyphicon-circle-arrow-down"></span></a>
+                    </div>
                 </div>
 
                 
-
-                <div class = "signature">
-
-                    <a class="btn btn-white" href="/files-dwnld/Curriculum_Vitae.pdf" download="CV-GregoireGentile.pdf" role="button">Download CV (pdf)</a>
-
-                    <p><em> Created by Grégoire Gentile, with the help of Hugo Moreau </em></p>
-                    <a href="https://fr.linkedin.com/in/hugo-moreau-9898b6105" target="_blank">
-                    	<img src="images/Linkedin.png" alt="LinkedIn icon" width="70" height="70">
-
+                <div class="row">
+                    <div class="col-xs-4 text-center">
+                        <a href="https://twitter.com/moreau_hugo" title="Link toward my twitter profile" target="_blank">
+                            <img src="images/Twitter.png" alt="Twitter icon">
+                        </a>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <a href="https://sg.linkedin.com/in/hugo-moreau-9898b6105" title="Link toward my Linked In"  target="_blank">
+                            <img src="images/Linkedin.png" alt="LinkedIn icon">
+                        </a>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <a href="skype:moreauhugo94?add" title="Add me on skype">
+                            <img src="images/Skype.png" alt="Skype icon" width="70" height="70">
+                        </a>
+                    </div>
+                    
+                    
                 </div>
-
                 
-
                 
-
-            </div><!--/.container-->    
-
+                
+                
+            </div><!--/.container-->   
+            <div class = "signature">
+                    <p><em>Designed with <span class = "glyphicon glyphicon-heart" style  ="color:#e74c3c;"></span> by Hugo Moreau in 2016. </em></p>
+                </div>
         </div><!--/#contact-->
+            
 
 
-
-
+            
+        <!-- Load JavaScript -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-
         <!-- Bootstrap Core JavaScript -->
-
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
         <!-- Scrolling Nav JavaScript -->
-
         <script src="js/custom.js"  type="text/javascript"></script>
-
     </body>
-
 </html>
-
